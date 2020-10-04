@@ -502,11 +502,107 @@ body {
 }
 
 .modal-form {
-  ggggggggg
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-colour);
+  margin-bottom: 12px;
+  margin-top: 0px;
+}
+.input-title {
+  margin-bottom: 4px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.01em;
+  color: var(--text-colour);
+}
+.input {
+  width: 448px;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  padding-left: 42px;
+  padding-top: 0px;
+  outline: none;
+}
+
+.form-icon {
+  position: absolute;
+  top: 29px;
+  left: 14px;
+  height: 18px;
+  width: 18px;
+}
+
+.form-field {
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 textarea {
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
   resize: none;
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  width: 100%;
+}
+
+.modal-button {
+  margin-left: 124px;
+  width: 200px;
+}
+.checkbox-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--text-colour);
+  margin-right: -25px;
+}
+
+.modal-link {
+  color: var(--accent-colour);
+  border-bottom: 1px solid var(--accent-colour);
+  display: inline-block;
+  line-height: 0.85;
+}
+
+.checkbox-input {
+  appearance: none;
+  position: absolute;
+}
+
+.checkbox {
+  position: absolute;
+  background-image: url(../images/Vector.svg);
+  width: 16px;
+  height: 15px;
+  left: 10px;
+  top: 5px;
+}
+.form-checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
 }
 .portfolio-nav .button {
   font-weight: 500;
